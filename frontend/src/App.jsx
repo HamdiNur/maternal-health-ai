@@ -1,8 +1,7 @@
 import { useState } from "react"
 import axios from "axios"
 
-const API = "http://127.0.0.1:8000"
-
+const API = "https://maternal-health-ai-1.onrender.com"
 const RISK_CONFIG = {
   "high risk": {
     color: "#dc2626",
